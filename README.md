@@ -130,3 +130,40 @@ The notebook provides:
 5. Run the content-based evaluation cell to obtain ranking metrics.  
 6. Optionally enable `RUN_ENSEMBLE_EVAL` to compute ensemble performance.  
 7. Review comparison plots and recommendation examples, then adjust configuration or model settings as needed.
+
+
+================================================================================================================================================
+Operational Forecasting for HHS Hospital Capacity
+
+Overview
+This project focuses on operational forecasting of hospital capacity using publicly available data from the U.S. Department of Health and Human Services (HHS). The objective is to analyze historical trends and build predictive insights related to hospital utilization, such as inpatient beds, ICU capacity, and overall system stress.
+
+The work is implemented as a Jupyter Notebook and is intended for exploratory analysis, forecasting practice, and operational decision support in healthcare systems.
+
+File Description
+Operational Forecasting (HHS Hospital Capacity).ipynb
+This notebook contains data loading, preprocessing, exploratory data analysis, and forecasting components applied to hospital capacity metrics reported by HHS. All analysis steps are documented and executed sequentially within the notebook.
+
+Data Source
+The analysis uses HHS hospital capacity data, which includes regularly reported operational metrics from hospitals across the United States. These data capture system-level capacity signals commonly used for public health monitoring and planning.
+
+Methodology
+The notebook begins with data cleaning and transformation to ensure consistency across time and reporting entities. Exploratory analysis is performed to identify trends, seasonality, and anomalies in hospital capacity indicators.
+
+Forecasting techniques are then applied to model future capacity behavior based on historical patterns. The emphasis is on operational interpretability rather than purely predictive accuracy, aligning the analysis with real-world healthcare planning needs.
+
+Requirements
+The notebook is written in Python and relies on standard data science libraries such as pandas, NumPy, Matplotlib, and forecasting or statistical modeling packages depending on the methods used. The analysis runs in a standard Jupyter Notebook environment.
+
+How to Run
+Open the notebook using Jupyter Notebook or Jupyter Lab and execute the cells in order. All parameters and assumptions are defined within the notebook and can be adjusted to explore different forecasting horizons or capacity measures.
+
+Outputs and Interpretation
+The notebook produces time-series visualizations, summary statistics, and forecast plots that illustrate hospital capacity trends and projected future behavior. These outputs are intended to support high-level operational insights.
+
+Use Case and Scope
+This project is suitable for coursework, applied analytics projects, or portfolio demonstrations focused on healthcare operations forecasting. It is not intended for real-time clinical decision making or policy enforcement.
+
+Notes
+The analysis emphasizes clarity and reproducibility. All steps are contained within a single notebook to make the workflow easy to follow and adapt for related healthcare forecasting problems.
+
